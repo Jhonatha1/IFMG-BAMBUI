@@ -1,0 +1,41 @@
+import java.util.Arrays;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int []k = {9,10,-1,3,6,2,1,-3,1,0,-2,15,8,-7,0};
+		int []j = new int[k.length];
+		
+		mergeSort(k, j, 0, k.length-1); 
+        System.out.println(Arrays.toString(k));
+	}
+
+	private static void mergeSort(int[] k, int[] j, int inicio, int fim) {
+		if(inicio < fim) {
+		int meio = (inicio + fim)/2;
+		mergeSort(k, j, inicio, meio);
+		mergeSort(k, j, meio+1, fim);
+		intercalar(k, j,inicio, meio,fim);
+		}
+		
+	}
+
+	private static void intercalar(int[] k, int[] j, int inicio, int meio, int fim) {
+		
+		for (int x = inicio; x<= fim; x++)
+			j[x] = k[x]; 
+		
+		int i = inicio; 
+		int p = meio + 1;
+		
+		for (int x = inicio; x <= fim; x++){
+			if(i> meio) k[x] = j[p++];
+			else if(p> fim) k[x] = j[i++];
+			else if(j[i] < j[p]) k[x] = j[i++];
+			else k[x] = j[p++]; 
+		}
+   
+		
+	}
+
+}
