@@ -27,7 +27,7 @@ sudo apt-get install codeblocks
 ## Clonando o repositório
 Com o git instalado basta abrir o terminal onde deseja salvar o projeto e digitar o seguinte comando:
 ```bash
-git clone https://github.com/Jhonatha1/Trabalho%20Redes.git
+git clone https://github.com/Jhonatha1/IFMG-BAMBUI/tree/main/Trabalho%20Redes.git
 ```
 ## Compilando
 1- Abra o terminal no diretório que o arquivo está e digite o seguinte comando:
