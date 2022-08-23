@@ -1,0 +1,3 @@
+Infelizmente para compilar é necessário usar o comando:   
+
+g++ main.cpp servidorHttp.cpp respostaServidor.cpp socketClass.cpp tiposArq.cpp -o exeDoTrabalho -pthread
