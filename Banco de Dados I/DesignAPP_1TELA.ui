@@ -35,11 +35,21 @@ background-color: rgb(197, 197, 197);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 64, 67);
+     <string notr="true">QPushButton{
+background-color: rgb(255, 64, 67);
 border-style: outset;
 border-width: 2px;
 border-radius: 15px;
-border-color: black;</string>
+border-color: black;
+}
+
+QPushButton:pressed{
+background-color:rgb(255, 99, 101);
+border-style: outset;
+border-width: 2px;
+border-radius: 15px;
+border-color: black;
+}</string>
     </property>
     <property name="text">
      <string>LOGIN</string>
@@ -117,7 +127,21 @@ border-width: 2px;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 64, 67);</string>
+     <string notr="true">QPushButton{
+background-color: rgb(255, 64, 67);
+border-style: outset;
+border-width: 1px;
+border-radius: 15px;
+border-color: black;
+}
+
+QPushButton:pressed{
+background-color:rgb(255, 99, 101);
+border-style: outset;
+border-width: 1px;
+border-radius: 15px;
+border-color: black;
+}</string>
     </property>
     <property name="text">
      <string>Cadastrar</string>
@@ -195,7 +219,7 @@ border-width: 2px;</string>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>150</x>
       <y>0</y>
       <width>291</width>
       <height>101</height>
@@ -211,8 +235,8 @@ border-width: 2px;</string>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>100</y>
+      <x>140</x>
+      <y>90</y>
       <width>211</width>
       <height>31</height>
      </rect>
@@ -234,7 +258,7 @@ border-width: 2px;</string>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>130</x>
       <y>140</y>
       <width>231</width>
       <height>21</height>
@@ -246,7 +270,7 @@ border-width: 2px;</string>
      </font>
     </property>
     <property name="text">
-     <string>Faça seu cadastro no Gym Workout:</string>
+     <string>Faça seu login no Gym Workout:</string>
     </property>
    </widget>
    <zorder>label_6</zorder>
