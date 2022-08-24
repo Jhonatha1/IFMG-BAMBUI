@@ -1,7 +1,7 @@
 <h2 align="center">Desenvolvimento de um Aplicativo Mobile utilizando Python, Qt Designer e SQlite.</h2>
 
 
-**<h3 align="center">O aplicativo consiste na aplicação de um sistema de academia, no qual o usuário consegue fazer o seu cadastro, visualizar seu perfil, editar suas informações e também a pagar mensalidade.</h3>**
+**<h3 align="center">O aplicativo consiste na aplicação de um sistema de academia, no qual o usuário consegue fazer o seu cadastro, visualizar seu perfil, editar suas informações e também pagar a mensalidade.</h3>**
 
 
 
